@@ -10,16 +10,19 @@
 
 </div> 
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2403.11226)
+[![paper](url)
 
 
 This repository contains the official implementation of the research paper titled "Multiple Teachers-Meticulous Student: A Domain Adaptive Meta-Knowledge Distillation Model for Medical Image Classification." The research focuses on developing a domain adaptive meta-knowledge distillation model tailored for medical image classification tasks. The model described in the paper leverages the knowledge from multiple teachers to train a meticulous student model capable of achieving high accuracy and generalization across different medical imaging domains.
 
 
 <p align="center">
-  <img src="images/model.png" width="800"/>
+  <img src="images/BA.svg" width="800"/>
 </p>
 
+<p align="center">
+  <img src="images/PROPOSED_METHOD.png" width="800"/>
+</p>
 
 ## Citation
 
