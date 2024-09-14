@@ -10,7 +10,7 @@
 
 </div> 
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2403.11226)
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2409.00375)
 
 
 This repository contains the official implementation of the research paper titled "Statistical Distance-Guided Unsupervised Domain Adaptation for Automated Multi-Class Cardiovascular Magnetic Resonance Image Quality Assessment". The proposed method addresses domain shift between two datasets: a labeled source dataset and an unlabeled target dataset. It employs a convolutional neural network to extract features from shuffled mini-batches composed of both source and target data. The extracted features are utilized by a label predictor and a distance estimator network. The label predictor aims to enhance class separability by reducing intra-class distance and increasing inter-class distance. The distance estimator approximates the statistical distance between the source and target data distributions within each mini-batch. This estimated distance is incorporated into a combined loss function to handle domain shift. By jointly leveraging these networks, the proposed method extracts domain-independent features with improved separability for each class. Hence, the model demonstrates enhanced performance when confronted with unlabeled target data. 
@@ -32,11 +32,11 @@ Furthermore, the model is capable of performing real-time data analysis, enablin
 If you find our code or paper useful, please cite as:
 
 ```bibtex
-@article{nabavi2024multiple,
-  title={Multiple Teachers-Meticulous Student: A Domain Adaptive Meta-Knowledge Distillation Model for Medical Image Classification},
+@article{nabavi2024statistical,
+  title={Statistical Distance-Guided Unsupervised Domain Adaptation for Automated Multi-Class Cardiovascular Magnetic Resonance Image Quality Assessment},
   author={Nabavi, Shahabedin and Hamedani, Kian Anvari and Moghaddam, Mohsen Ebrahimi and Abin, Ahmad Ali and Frangi, Alejandro F},
-  journal={arXiv preprint arXiv:2403.11226},
+  journal={arXiv preprint arXiv:2409.00375},
   year={2024}
-  url={https://arxiv.org/abs/2403.11226}
+}
 }
 ```
