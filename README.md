@@ -38,5 +38,4 @@ If you find our code or paper useful, please cite as:
   journal={arXiv preprint arXiv:2409.00375},
   year={2024}
 }
-}
 ```
